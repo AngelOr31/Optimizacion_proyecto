@@ -1,0 +1,73 @@
+body {
+    font-family: 'Arial', sans-serif; /* Fuente del texto */
+    background-color: #f9f9f9; /* Color de fondo de la página */
+    color: #333; /* Color del texto */
+}
+
+/* Barra de navegación superior */
+.wy-nav-top {
+    background-color: #333; /* Color de fondo */
+    color: #fff; /* Color del texto */
+}
+
+/* Contenido de la navegación */
+.wy-nav-content {
+    max-width: 1200px; /* Ancho máximo del contenido */
+    margin: 0 auto; /* Centrando el contenido */
+    color: #666; /* Color del texto */
+}
+
+/* Título principal */
+h1 {
+    font-size: 40px; /* Tamaño de la fuente */
+    color: #003366; /* Color del texto */
+    border-bottom: 2px solid #003366; /* Línea debajo del título */
+    padding-bottom: 4px; /* Espacio debajo del texto */
+    margin-bottom: 8px; /* Espacio debajo del título */
+}
+
+/* Subtítulo para la sección de funciones (reducido) */
+h2 {
+    font-size: 20px; /* Tamaño de la fuente reducido */
+    color: #0055aa; /* Color del texto */
+    margin-top: 12px; /* Espacio arriba del subtítulo */
+    padding-bottom: 2px; /* Espacio debajo del subtítulo */
+}
+
+/* Subapartados (Funciones) (reducido) */
+dl dt {
+    font-weight: bold; /* Negrita */
+    font-size: 18px; /* Tamaño de la fuente reducido */
+    margin-top: 6px; /* Espacio arriba del subapartado */
+}
+
+/* Descripciones de funciones */
+dl dd {
+    margin-bottom: 16px; /* Espacio abajo de la descripción */
+    font-size: 16px; /* Tamaño de la fuente */
+    color: #333333; /* Color del texto */
+}
+
+/* Ajuste del tamaño del texto en las descripciones */
+dl dd p {
+    margin: 0; /* Sin margen */
+    padding: 8px 0; /* Espacio arriba y abajo del párrafo */
+}
+
+/* Estilo para los bloques de código */
+code {
+    background-color: gray; /* Color de fondo del código */
+    border-radius: 4px; /* Esquinas redondeadas */
+    padding: 4px 8px; /* Espacio interno */
+    font-size: 14px; /* Tamaño de la fuente del código */
+}
+
+/* Estilo para los enlaces */
+a {
+    color: purple; /* Color del texto del enlace */
+}
+
+/* Estilo del enlace al pasar el ratón */
+a:hover {
+    color: red; /* Color del texto al pasar el ratón */
+}
